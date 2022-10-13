@@ -5,7 +5,7 @@ let description = document.querySelector('.description')
 
 
 const button = document.querySelector('button').addEventListener('click',function(){
-fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&units=metric&appid=ee86b1de724088bcbde768d27fb1f01e')
+fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&units=metric&appid=e18f3037f5555c2e2263ddf6edc42a82')
     .then(response => response.json())
     // .then(data => console.log(data))
     .then(data => {
